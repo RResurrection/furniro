@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "bg-hero": "url('/hero-bg.webp')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
