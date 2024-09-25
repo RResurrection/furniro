@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
+import { Poppins } from "next/font/google";
 
 import "./globals.css";
+import Header from "@/components/section-header/Header";
+
+const popins = Poppins({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export const metadata: Metadata = {
   title: "Furniro",
@@ -15,7 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={``}>{children}</body>
+      <body className={`${popins.className}`}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
