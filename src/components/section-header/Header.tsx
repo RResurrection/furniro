@@ -4,7 +4,7 @@ import Logo from "../shared/Logo";
 
 const Header = () => {
   return (
-    <header className="max-w-screen-xl mx-auto flex items-center justify-between py-[28px]">
+    <header className="max-w-screen-xl mx-auto flex items-center justify-between py-[28px] px-3">
       <Logo />
 
       <Links />
