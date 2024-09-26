@@ -4,19 +4,21 @@ import Title from "@/components/shared/Title";
 
 import { getCategories } from "@/actions/actions";
 import { useQuery } from "@tanstack/react-query";
+
 import Categories from "./Categories";
+import SkeletonCategoty from "./SkeletonCategoty";
+import { CategoriesProps } from "@/models/query-props";
 
 const BrowseRange = () => {
   const {
-    isPending,
-    error,
-    data: categories,
+    data: categories = [],
+
+    isLoading,
+    isSuccess,
   } = useQuery({
     queryKey: ["categories"],
     queryFn: getCategories,
   });
-  if (isPending) return <div>Loading...</div>;
-  if (error) return <div>Error: {error.message}</div>;
 
   return (
     <>
@@ -29,11 +31,23 @@ const BrowseRange = () => {
           Explore Stylish Comforts for Every Room
         </p>
       </div>
-      <div className="flex items-center gap-[48px] justify-center flex-wrap">
-        {categories.map((category) => (
-          <Categories key={category.id} {...category} />
-        ))}
-      </div>
+      {isSuccess && (
+        <div className="flex items-center gap-[48px] justify-center flex-wrap">
+          {categories.map((category) => (
+            <Categories key={category.id} {...category} />
+          ))}
+        </div>
+      )}
+
+      {isLoading && (
+        <div className="flex items-center gap-[48px] justify-center">
+          {Array(3)
+            .fill(null)
+            .map((_, index) => (
+              <SkeletonCategoty key={index} />
+            ))}
+        </div>
+      )}
     </>
   );
 };
