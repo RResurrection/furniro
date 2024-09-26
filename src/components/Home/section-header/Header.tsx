@@ -1,6 +1,6 @@
-import IconsList from "../shared/IconsList";
-import Links from "../shared/Links";
-import Logo from "../shared/Logo";
+import IconsList from "@/components/shared/IconsList";
+import Links from "@/components/shared/Links";
+import Logo from "@/components/shared/Logo";
 
 const Header = () => {
   return (

@@ -1,0 +1,22 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dining",
+      "image": "/Dining.png",
+      "description": "Neutral-toned table decor with bowls, vases, and cozy throws."
+    },
+    {
+      "id": 2,
+      "name": "Living",
+      "image": "/Living.png",
+      "description": "Beige couch with textured pillows and natural-toned rugs."
+    },
+    {
+      "id": 3,
+      "name": "Bedroom",
+      "image": "/Bedroom.png",
+      "description": "Warm lighting, cozy blankets, pillows, and a plant in a woven basket."
+    }
+  ]
+}
