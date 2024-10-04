@@ -1,4 +1,4 @@
-import { CategoriesProps } from "@/models/query-props";
+import { CategoriesProps, ProductsProps } from "@/models/query-props";
 import axios from "axios";
 
 export const getCategories = async () => {
@@ -11,4 +11,12 @@ export const getCategories = async () => {
   }
 
   return categories;
+};
+
+export const getProducts = async () => {
+  const { data: products } = await axios.get<ProductsProps[]>(
+    "http://localhost:3000/api/our-products"
+  );
+
+  return products;
 };
