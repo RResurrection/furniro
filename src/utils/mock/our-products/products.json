@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Syltherine",
+      "description": "Stylish cafe chair",
+      "price_usd": 162.34,
+      "original_price_usd": 227.27,
+      "discount": "-30%",
+      "currency": "USD",
+      "image": "/products-home/images.png"
+    },
+    {
+      "id": 2,
+      "name": "Leviosa",
+      "description": "Stylish cafe chair",
+      "price_usd": 162.34,
+      "original_price_usd": null,
+      "discount": null,
+      "currency": "USD",
+      "image": "/products-home/image1.png"
+    },
+    {
+      "id": 3,
+      "name": "Lolito",
+      "description": "Luxury big sofa",
+      "price_usd": 454.55,
+      "original_price_usd": 909.09,
+      "discount": "-50%",
+      "currency": "USD",
+      "image": "/products-home/images2.png"
+    },
+    {
+      "id": 4,
+      "name": "Respira",
+      "description": "Outdoor bar table and stool",
+      "price_usd": 32.47,
+      "original_price_usd": null,
+      "discount": "New",
+      "currency": "USD",
+      "image": "/products-home/image3.png"
+    },
+    {
+      "id": 5,
+      "name": "Grifo",
+      "description": "Night lamp",
+      "price_usd": 97.4,
+      "original_price_usd": null,
+      "discount": null,
+      "currency": "USD",
+      "image": "/products-home/image4.png"
+    },
+    {
+      "id": 6,
+      "name": "Muggo",
+      "description": "Small mug",
+      "price_usd": 9.74,
+      "original_price_usd": null,
+      "discount": "New",
+      "currency": "USD",
+      "image": "/products-home/image5.png"
+    },
+    {
+      "id": 7,
+      "name": "Pingky",
+      "description": "Cute bed set",
+      "price_usd": 454.55,
+      "original_price_usd": 909.09,
+      "discount": "-50%",
+      "currency": "USD",
+      "image": "/products-home/image6.png"
+    },
+    {
+      "id": 8,
+      "name": "Potty",
+      "description": "Minimalist flower pot",
+      "price_usd": 32.47,
+      "original_price_usd": null,
+      "discount": "New",
+      "currency": "USD",
+      "image": "/products-home/image7.png"
+    }
+  ]
+}
