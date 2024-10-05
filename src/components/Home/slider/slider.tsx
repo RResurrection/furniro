@@ -7,7 +7,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
-import { slider } from "../../../utils/mock/slider/slider.json";
+import { slider } from "@/utils/mock/slider/slider.json";
 
 const Slider = () => {
   return (
