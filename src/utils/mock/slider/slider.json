@@ -1,0 +1,19 @@
+{
+  "slider": [
+    {
+      "id": 1,
+      "name": "Inner Peace",
+      "image": "/slider/slider1.png"
+    },
+    {
+      "id": 2,
+      "name": "Inner Peace",
+      "image": "/slider/slider2.png"
+    },
+    {
+      "id": 3,
+      "name": "Inner Peace",
+      "image": "/slider/slider3.png"
+    }
+  ]
+}

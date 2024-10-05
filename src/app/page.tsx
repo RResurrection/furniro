@@ -2,6 +2,7 @@ import BrowseRange from "@/components/Home/browse-range/BrowseRange";
 import SkeletonCategoty from "@/components/Home/browse-range/SkeletonCategoty";
 import OurProducts from "@/components/Home/our-products/our-products";
 import Hero from "@/components/Home/section-hero/Hero";
+import Slider from "@/components/Home/slider/slider";
 import QueryWrapper from "@/components/QueryWrapper/QueryWrapper";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <BrowseRange />
         <OurProducts />
       </QueryWrapper>
+      <Slider />
     </div>
   );
 }
